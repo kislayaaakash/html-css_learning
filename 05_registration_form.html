@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <!-- Registration form begins -->
+    <!-- The for attribute of <label> must be equal to the id attribute of the related element to bind them together.
+     A label can also be bound to an element by placing the element inside the <label> element.  -->
+    <!-- Name field -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="please enter your name">
+        <br>
+        <br>
+    <!-- email field -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="please enter your email">
+        <br>
+        <br>
+    <!-- gender field -->
+        <label for="gender " name = "sex" id = "sex">Please select gender</label>
+        <select name="sex" id="sex">
+            <option value="Male" > Male</option>
+            <option value="Female"> Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <br>
+    <!-- Select subscription Type -->
+        Select subscription :-
+        <br>
+        <label for="silver"> Silver</label>
+        <input type="radio" name="subscription" id="silver" value = "silver">
+        <label for="gold"> Gold</label>
+        <input type="radio" name="subscription" id="gold" value = "gold">
+        <label for="platinum"> Platinum</label>
+        <input type="radio" name="subscription" id="platinum" value = "platinum">
+        <br>
+        <br>
+    <!-- Select food preference -->   
+        Food preference :-
+        <br>
+        <label for="indian">Indian</label>
+        <input type="checkbox" name="food" id="indian" value = "indian">
+        <label for="thai">Thai</label>
+        <input type="checkbox" name="food" id="thai" value = "thai">
+        <label for="chineese">Chineese</label>
+        <input type="checkbox" name="food" id="chineese" value = "chineese"> 
+
+</body>
+</html>
+<!-- Important observation -->
+
+    <!-- The for attribute of <label> must be equal to the id attribute of the related element to bind them together.
+     A label can also be bound to an element by placing the element inside the <label> element.  -->
+
+    <!-- for <input> tag as radio the name of all the input radio should be same for proper functionality -->
