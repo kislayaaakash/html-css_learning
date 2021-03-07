@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -55,5 +56,98 @@ p{
 }
 
 #navbar li a:hover{
-    color :rgb(245, 187, 99);
+    color : #f7c08a;
+}
+
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height : 270px;
+}
+
+#showcase-content{
+    padding-top : 60px;
+    color :#fff;
+    text-align: center;
+}
+
+.lead{
+    color: #f7c08a !important;
+}
+
+.my-para{
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-bottom: 22px;
+}
+
+.my-para-light{
+    font-size: 15px;
+}
+
+.btn{
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-light{
+    background: #fff;
+    color:#333;
+}
+
+.btn:hover{
+    color:#333;
+    background : #f7c08a
+}
+
+.my-details{
+    height: 288px;
+}
+
+.clr{
+    clear: both;
+}
+
+.my-details .home-img{
+    float: left;
+    background: url('../img/photo-1.jpg') no-repeat;
+    width : 50%;
+    min-height: 100%;
+}
+
+.my-details .home-info{
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    min-height: 100%
+}
+
+.my-details .home-info h2{
+    padding-top: 30px;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.box i{
+    padding-top: 20px;
+}
+
+.bg-dark{
+    background: #f7c08a;
+}
+
+.footer-main{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
 }
